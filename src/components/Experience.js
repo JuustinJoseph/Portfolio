@@ -33,8 +33,7 @@ const Experience = () => {
               placements. Help direct incoming equipment based on demand and
               productivity to balance regional inventory levels. Review reports
               to optimize equipment placement, reservations, and contract
-              accuracy. Additionally, assist with the U-Box portable storage
-              product.
+              accuracy.
             </p>
             <div className="tag-container">
               <div className="tag">
@@ -74,9 +73,7 @@ const Experience = () => {
               seamless functionality and successful deployments through
               debugging and comprehensive testing. Actively collaborated with
               clients and stakeholders to gather requirements, define project
-              scope, and align expectations. Regularly created and updated
-              documentation, attended business request meetings, and managed
-              records to ensure project transparency.{" "}
+              scope, and align expectations.
             </p>
             <div className="tag-container">
               <div className="tag">
