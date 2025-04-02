@@ -10,9 +10,159 @@ const Projects = () => {
       </div>
       <div className="project-contents">
         <div className="project-card">
-          {/* <div className="project-image-container">
-            <img src={freelanceUImg} alt="freelanceU-thumbnail" />
-          </div> */}
+          <div className="project-image-container">
+            <img src="/assets/Spotifiler.png" alt="freelanceU-thumbnail" />
+          </div>
+          <div className="card-column">
+            <Link
+              target="_blank"
+              className="anchor-text"
+              to="https://spotifiler.vercel.app/"
+            >
+              <h3 className="anchor-text card-header to-link">
+                Spotifiler &nbsp;
+                <span className="right-arrow">&rarr;</span>
+              </h3>
+            </Link>
+            <p>
+              Built a Spotify-powered music app using React. Worked with
+              components, props, state, hooks, and integrated the Spotify
+              Developer API to fetch user data. Implemented OAuth authentication
+              and deployed the app on Vercel.
+            </p>
+            <div className="tag-container">
+              <div className="tag">
+                <p>React.js</p>
+              </div>
+              <div className="tag">
+                <p>HTML & CSS</p>
+              </div>
+              <div className="tag">
+                <p>Spotify OAuth</p>
+              </div>
+              <div className="tag">
+                <p>Spotify API</p>
+              </div>
+              <div className="tag">
+                <p>JavaScript</p>
+              </div>
+              <div className="tag">
+                <p>Tailwind</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="project-card">
+          <div className="project-image-container">
+            <img src="/assets/Brogram.png" alt="freelanceU-thumbnail" />
+          </div>
+          <div className="card-column">
+            <Link
+              target="_blank"
+              className="anchor-text"
+              to="https://brogram-beta.vercel.app/"
+            >
+              <h3 className="anchor-text card-header to-link">
+                Brogram &nbsp;
+                <span className="right-arrow">&rarr;</span>
+              </h3>
+            </Link>
+            <p>
+              Developed a Workout Tracking Web App using React hosted on Vercel,
+              managing workout plans and user progress. Optimized data
+              persistence using local storage, ensuring workout progress is
+              saved across sessions.
+            </p>
+            <div className="tag-container">
+              <div className="tag">
+                <p>React.js</p>
+              </div>
+              <div className="tag">
+                <p>HTML & CSS</p>
+              </div>
+              <div className="tag">
+                <p>JavaScript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="project-card">
+          <div className="project-image-container">
+            <img src="/assets/APOD.png" alt="freelanceU-thumbnail" />
+          </div>
+          <div className="card-column">
+            <Link
+              target="_blank"
+              className="anchor-text"
+              to="https://nasa-react-app-ahfr.onrender.com"
+            >
+              <h3 className="anchor-text card-header to-link">
+                The APOD project <span className="right-arrow">&rarr;</span>
+              </h3>
+            </Link>
+            <p>
+              A Vite + React app that fetches and displays NASA’s Astronomy
+              Picture of the Day (APOD). It retrieves the image, title, and
+              description using the Fetch API and presents them in a clean,
+              responsive layout using HTML and CSS. The app ensures a smooth
+              user experience with fast loading times and a simple yet visually
+              appealing design. 🚀
+            </p>
+            <div className="tag-container">
+              <div className="tag">
+                <p>React.js</p>
+              </div>
+              <div className="tag">
+                <p>Vite</p>
+              </div>
+              <div className="tag">
+                <p>HTML & CSS</p>
+              </div>
+              <div className="tag">
+                <p>JavaScript</p>
+              </div>
+              <div className="tag">
+                <p>NASA API</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="project-card">
+          <div className="project-image-container">
+            <img src="/assets/TaskTracker.png" alt="freelanceU-thumbnail" />
+          </div>
+          <div className="card-column">
+            <Link
+              target="_blank"
+              className="anchor-text"
+              to="https://cerulean-cendol-4a5f15.netlify.app/"
+            >
+              <h3 className="anchor-text card-header to-link">
+                Task tracker application &nbsp;
+                <span className="right-arrow">&rarr;</span>
+              </h3>
+            </Link>
+            <p>
+              Built a task tracker app using React. Dealt with components,
+              props, state, hooks, working with an API and more.
+            </p>
+            <div className="tag-container">
+              <div className="tag">
+                <p>React.js</p>
+              </div>
+              <div className="tag">
+                <p>HTML & CSS</p>
+              </div>
+              <div className="tag">
+                <p>JavaScript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="project-card">
+          <div className="project-image-container">
+            <img src="/assets/FreelanceU.png" alt="freelanceU-thumbnail" />
+          </div>
           <div className="card-column">
             <Link
               target="_blank"
@@ -60,9 +210,9 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-card">
-          {/* <div className="project-image-container">
-            <img src={freelanceUImg} alt="freelanceU-thumbnail" />
-          </div> */}
+          <div className="project-image-container">
+            <img src="/assets/NA.png" alt="freelanceU-thumbnail" />
+          </div>
           <div className="card-column">
             <Link
               target="_blank"
@@ -99,117 +249,6 @@ const Projects = () => {
               </div>
               <div className="tag">
                 <p>Sharp.js</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="project-card">
-          {/* <div className="project-image-container">
-            <img src={freelanceUImg} alt="freelanceU-thumbnail" />
-          </div> */}
-          <div className="card-column">
-            <Link
-              target="_blank"
-              className="anchor-text"
-              to="https://github.com/JuustinJoseph/Stocks-App"
-            >
-              <h3 className="anchor-text card-header to-link">
-                Stocks App <span className="right-arrow">&rarr;</span>
-              </h3>
-            </Link>
-            <p>
-              Developed a Stock Monitoring App in Swift, enabling real-time
-              stock tracking with seamless data updates through MS Finance API
-              integration. Implemented Core Data for persistent storage of user
-              preferences and stock classifications across sessions. Designed an
-              interactive and user-friendly UI/UX, ensuring a smooth stock
-              monitoring experience.
-            </p>
-            <div className="tag-container">
-              <div className="tag">
-                <p>Swift</p>
-              </div>
-              <div className="tag">
-                <p>Storyboards</p>
-              </div>
-              <div className="tag">
-                <p>Core Data</p>
-              </div>
-              <div className="tag">
-                <p>MS Finance API</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="project-card">
-          {/* <div className="project-image-container">
-            <img src={freelanceUImg} alt="freelanceU-thumbnail" />
-          </div> */}
-          <div className="card-column">
-            <Link
-              target="_blank"
-              className="anchor-text"
-              to="https://nasa-react-app-ahfr.onrender.com"
-            >
-              <h3 className="anchor-text card-header to-link">
-                The APOD project <span className="right-arrow">&rarr;</span>
-              </h3>
-            </Link>
-            <p>
-              A Vite + React app that fetches and displays NASA’s Astronomy
-              Picture of the Day (APOD). It retrieves the image, title, and
-              description using the Fetch API and presents them in a clean,
-              responsive layout using HTML and CSS. The app ensures a smooth
-              user experience with fast loading times and a simple yet visually
-              appealing design. 🚀
-            </p>
-            <div className="tag-container">
-              <div className="tag">
-                <p>React.js</p>
-              </div>
-              <div className="tag">
-                <p>Vite</p>
-              </div>
-              <div className="tag">
-                <p>HTML & CSS</p>
-              </div>
-              <div className="tag">
-                <p>JavaScript</p>
-              </div>
-              <div className="tag">
-                <p>NASA API</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="project-card">
-          {/* <div className="project-image-container">
-            <img src={freelanceUImg} alt="freelanceU-thumbnail" />
-          </div> */}
-          <div className="card-column">
-            <Link
-              target="_blank"
-              className="anchor-text"
-              to="https://cerulean-cendol-4a5f15.netlify.app/"
-            >
-              <h3 className="anchor-text card-header to-link">
-                Task tracker application &nbsp;
-                <span className="right-arrow">&rarr;</span>
-              </h3>
-            </Link>
-            <p>
-              Built a task tracker app using React. Dealt with components,
-              props, state, hooks, working with an API and more.
-            </p>
-            <div className="tag-container">
-              <div className="tag">
-                <p>React.js</p>
-              </div>
-              <div className="tag">
-                <p>HTML & CSS</p>
-              </div>
-              <div className="tag">
-                <p>JavaScript</p>
               </div>
             </div>
           </div>
